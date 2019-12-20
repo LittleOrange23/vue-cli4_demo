@@ -13,6 +13,13 @@ export default {
   name: 'home',
   components: {
     HelloWorld
+  },
+  computed: {
+
+  },
+  created: function () {
+    console.log('name', this.$route.query)
   }
+
 }
 </script>
